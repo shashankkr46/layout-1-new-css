@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+.main_page
+{
+	max-width: 100%;
+}
 
 .landing_page
 {
