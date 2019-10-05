@@ -185,6 +185,7 @@ li a
 	border-style: none;
 	width: 30%;
 	margin-left: 5%;
+	padding-top: 45px;
     box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.60);
 
 }
@@ -198,6 +199,7 @@ li a
 {
 	width: 30%;
 	margin-right: 5%;
+	padding-top: 45px;
     box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.60);
 }
 .glob_icon
@@ -217,4 +219,253 @@ li a
 	text-align: center;
 	padding-left: auto;
 	padding-right: auto;
+}
+
+
+.financial
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-width:100%;
+	margin-top: 30px;
+	padding-bottom: 0px;
+
+}
+.finan_box1
+{
+	width: 30%;
+	margin-left: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content:flex-start;
+
+}
+.flex-cont
+{
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-start;
+}
+.finan_box2
+{
+	
+	width: 30%;
+	align-items: center;
+	margin-right: 70px;
+	padding-top: 20px;
+}
+.finan_box3
+{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content:flex-start;
+}
+.finan_icon
+{
+	color: green;
+	padding-top: 16px;
+}
+.finan_text
+{
+	font-size: 1.2em;
+	color: black;
+	font-weight: bold;
+	padding-left: 10%;
+
+}
+.finan_text_small
+{
+	padding-left: 10%;
+}
+.innovation
+{
+	max-width: 100%;
+	background-image: url("../images/sky.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 5% 0% 6% 8%;
+
+}
+.innovation_text_1
+{
+	font-size: 3.5em;
+	font-weight: bold;
+	color:white;
+}
+.innovation_text_2
+{
+	color: green;
+	font-size: 3.5em;
+	font-weight: bold;
+}
+.innovation_text_small
+{
+	font-size: 1.2em;
+	color: white;
+}
+
+
+
+.innovation_number
+{
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-start;
+	font-weight: bold;
+	color: green;
+	font-size: 3.5em;
+}
+.innov_box
+{
+	padding-top: 2%;
+	display: flex;
+	flex-direction: column;
+	justify-content:flex-start;
+}
+.innov_num
+{
+	padding-left: 12%;
+}
+.subscript
+{
+	font-size: 0.6em;
+}
+.innov_text1
+{
+	padding-left: 7%;
+}
+.innov_text2
+{
+	padding-left: 9%;
+}
+.innov_text3
+{
+	padding-left: 10%;
+}
+.innovation_text
+{
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-start;
+	font-weight: bold;
+	color: white;
+	font-size: 0.9em;
+	padding-top: 2%;
+}
+.testimonial
+{
+	max-width: 100%;
+	background-color: white;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.testimonial_text_para
+{
+	font-size: 1.2em;
+}
+.testimonial_name
+{
+	font-weight: bold;
+	font-size: 1.1em;
+
+}
+.form_box
+{
+	max-width: 100%;
+	background-image: url("../images/form_image.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0% 0% 5% 8%;
+
+}
+.form_left
+{
+	float: left;
+	width:%;
+	padding-top: 12%;
+}
+.form_right
+{
+	float: right;
+    width:45%;
+    padding-top: 5%;
+}
+.form_heading_1
+{
+	font-size: 3em;
+	color: green;
+	font-weight: bold;
+}
+.form_heading_2
+{
+	font-size: 3em;
+	color:white;
+    font-weight: bold;
+}
+.form_small
+{
+	font-size: 1.1em;
+	color: white;
+}
+.form_box_right
+{
+	float:left;
+	background-color:rgba(192,192,192,0.3);
+    width:65%;
+    padding-left: 8%;
+    padding-right: 5%;
+    padding-bottom: 8%;
+
+
+}
+.form_box_heading
+{
+	font-size: 1.1em;
+	color: white;
+
+
+}
+.input
+{ 
+  width:95%;
+  padding:5% 0% 5% 5%;
+  border: 1px solid #ccc;
+  border-radius:2px;
+  margin-top: 10px;
+}
+.submit_button
+{
+  width:95%;
+  padding:5% 0% 5% 5%;
+  border: 1px solid #ccc;
+  border-radius:2px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  background-color: green;
+  border-style: none;
+  color: white;
+  font-size: 1em;
+}
+select
+{
+  width:95%;
+  padding:5% 0% 5% 5%;
+  border: 1px solid #ccc;
+  border-radius:2px;
+  margin-top: 0px;
+}
+.news-box
+{
+	max-width: 100%;
+	padding: 3% 0% 0% 0%;
+}
+.news-box-heading
+{
+	text-align: center;
+	font-size: 1em;
+	color: black;
 }
