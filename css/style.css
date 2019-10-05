@@ -522,3 +522,17 @@ select
 	background-color: #ededed;
 	max-width: 100%;
 }
+.logo_box>div
+{
+	display: inline-block;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.logo1
+{
+	margin-left: 2%;
+}
+.rest_all
+{
+    padding-left: 12%;
+}
